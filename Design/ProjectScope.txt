@@ -1,0 +1,19 @@
+This is a website that'll showcase the Big 5 of Africa (Lion, Elephant, Rhino, Cheetah and Buffalo)
+
+Home Page:
+
+Will be using Flexbox to manage the layout of the webpage.
+Each animal will have a dedicated page with more info on it.
+The home page will have a staggered presentation.
+    Each animal will have a 2 sentence introduction alongside an image of the animal.
+    The images will be the staggering with them alternating between being positioned on the left to the right.
+    The text will wrap around the images.
+The page will be responsive and if the screen approaches mobile sizes then the staggering will no longer be in affect and 
+the content will be centered instead.
+
+Individual Animal Pages re-design pending.
+
+These pages will have a flexbox where each item contains some information along with a supporting image.
+The items will all be the same size, and flex accordingly.
+    At a specific size, the items will first flex ontop of eachother.
+    Then at a smaller size, the item content will flex so that the text of each item sits under the supporting image.

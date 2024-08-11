@@ -1,0 +1,165 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #540C04;
+}
+
+/*
+Body Font:
+
+font-family: "Noto Sans JP", sans-serif;
+font-weight: <weight>;
+
+Header Font:
+
+font-family: "Ysabeau SC", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+*/
+
+.intro-header {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url(../images/lake_sunset.jpg);
+    background-size:cover;*/
+    background-color: #E5A640;
+}
+
+h1 {
+    color: #253A01;
+    text-align: center;
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5rem;  
+    margin-bottom: 1rem;
+}
+
+.opening {
+    background-color: #E5A640;
+    width: 60%;
+    max-width: 674px;
+    min-width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#opening-quote {
+    padding: 0 50px;
+    margin: 30px 0 0 0;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    color: #253A01;
+}
+
+#quote-origin {
+    align-self: flex-end;
+    margin: 0 70px 20px 0;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    color: #253A01;
+}
+
+#link-tip {
+    margin: 2px 0;
+    margin-top: 5px;
+    color: #E5A640;
+    background-color: #540C04;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: 100%
+}
+
+.animal-box {
+    border: 5px solid #543F04;
+    background-color: #E69958;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1375px;
+}
+
+.img-left > .img-link > img {
+    float: left;
+    width: 275px;
+    margin: 10px;
+}
+
+.animal-text {
+    padding-right: 10px;
+}
+
+.animal-name {
+    color: #253A01;
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.animal-intro {
+    color: #253A01;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #E66F0B;
+}
+
+footer {
+    width: 100%;
+    text-align: right;
+    color: #E5A640;
+    margin-right: 10px;
+}
+
+footer > p {
+    margin-right: 10px;
+}
+
+@media (max-width: 815px) {
+    
+    h1 {
+        margin: 0 10px;
+    }
+
+    .animal-box {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animal-text {
+        clear: left;
+        max-width: 250px;
+        margin: 0 10px;
+    }
+
+    .animal-name {
+        margin: 10px 0;
+    }
+
+    .animal-box > img {
+        margin-bottom: 0;
+    }
+
+    #link-tip {
+        margin: 2px 0;
+    }
+}

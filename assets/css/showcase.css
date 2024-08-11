@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #540C04;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5A640;
+}
+
+h1 {
+    color: #253A01;
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5rem;  
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#opening-quote {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 674px;
+    min-width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#quote-text {
+    color: #253A01;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 50px;
+    margin: 30px 0 0 0;
+}
+
+#quote-author {
+    color: #253A01;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    align-self: flex-end;
+    margin: 0 70px 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+#return {
+    color: #E5A640;
+    margin: 2px 0;
+    margin-top: 5px;
+    background-color: #540C04;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+}
+
+.animal-article {
+    border: 5px solid #543F04;
+    background-color: #E69958;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1375px;
+}
+
+.animal-article > img {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 325px;
+}
+
+.article-text {
+    padding-right: 10px;
+}
+
+.info-category, .paragraph {
+    color: #253A01;
+}
+
+.info-category {
+    font-family: "Ysabeau SC", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.paragraph {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #E66F0B;
+}
+
+footer {
+    width: 100%;
+    text-align: right;
+    color: #E5A640;
+    margin-right: 10px;
+}
+
+#credits {
+    margin-right: 10px;
+}
+
+@media (max-width: 815px) {
+    h1 {
+        margin: 0 10px;
+    }
+
+    .animal-article {
+        display: flex;
+        flex-direction: column;
+        width: 345px;
+        align-items: center;
+    }
+
+    .info-category {
+        margin: 10px 0;
+    }
+
+    .article-text {
+        margin: 0 10px 10px 10px ;
+    }
+}
